@@ -1,4 +1,5 @@
-const {detectUserIntent, sendMessage} = require('../responses/response');
+const {detectUserIntent, sendMessage} = require('../controllers/webhhook_controllers');
+const {actionBasedResponse} = require('../controllers/response_controller');
 const express = require("express");
 const router = express.Router();
 
@@ -8,14 +9,16 @@ router.post("/webhook/", async (req, res) => {
   const request = req.body.Body
   const senderId = req.body.From
 
-  const resultQuery = await detectUserIntent(request, senderId);
-  const resObj = {
-    fulfillmentText: resultQuery.fulfillmentText,
-    intent: resultQuery.intent.displayName,
+  try {
+    const resultQuery = await detectUserIntent(request, senderId);
+    const actionType = resultQuery.action
+    const response = await actionBasedResponse(actionType);
+    
+    await sendMessage(response, senderId);
   }
-  res.send(resObj);
-
-  await sendMessage(resultQuery.fulfillmentText, senderId);
+  catch (error) {
+    console.log(error);
+  }
 
 });
 
