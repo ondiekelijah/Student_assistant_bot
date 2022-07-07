@@ -14,7 +14,7 @@ app.use('/', dialogRoutes);
 
 
 app.listen(port, () => {
-    console.log(`Server started on port ${port}`);
+    console.log(`Server Up on ${port}`);
     }
 );
 
