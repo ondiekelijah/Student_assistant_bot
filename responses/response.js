@@ -1,18 +1,24 @@
 const dialogflow = require("dialogflow");
+const config = require("../config/config");
 
-const projectId = process.env.project_id;
-const sessionId = process.env.session_id;
-const privateKey = process.env.private_key;
+const projectId = config.project_id;
+const sessionId = config.session_id;
+const privateKey = config.private_key;
 
 const userCredentials = {
-  client_email: process.env.client_email,
+  client_email: config.client_email,
   private_key: privateKey,
 }
+
+
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const authToken = process.env.TWILIO_AUTH_TOKEN;
+const client = require('twilio')(accountSid, authToken);
 
 // Create a new session
 const sessionClient = new dialogflow.SessionsClient({projectId, credentials: userCredentials});
 
-const textQuery = async (userInput, userId) => {
+const detectUserIntent = async (userInput, userId) => {
   // Connect to dialogflow
   const sessionPath = sessionClient.sessionPath(projectId, sessionId + userId);
 
@@ -40,8 +46,23 @@ const textQuery = async (userInput, userId) => {
 };
 
 
+const sendMessage = async (message, senderId) => {
+try {
+  await client.messages
+  .create({
+     from: 'whatsapp:+14155238886',
+     body: message,
+     to: senderId
+   })
+  .then(message => console.log(message.sid));
+} catch (error) {
+  console.log(error);
+}
+
+}
+
 // Export the function
 module.exports = {
-    textQuery,
-    // sendToTwilio
+  detectUserIntent,
+  sendMessage
 }
