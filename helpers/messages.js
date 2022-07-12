@@ -15,7 +15,8 @@ const portalsMessage= () => {
     return`Here's a list of availabe portals:\n\n`
         + `*Portals Menu:* \n`
         + `1- Student portal \n`
-        + `2- Masomo portal \n\n`
+        + `2- HELB portal \n`
+        + `3- Masomo portal \n\n`
 
 }
 

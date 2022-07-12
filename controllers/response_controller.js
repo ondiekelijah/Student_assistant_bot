@@ -11,7 +11,6 @@ const actionBasedResponse = async (action) => {
         default:
             return unknownMessage();
     }
-  
 }
 
 module.exports = {
