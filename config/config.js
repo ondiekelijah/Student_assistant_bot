@@ -1,7 +1,8 @@
+// From GCP service account key file
 module.exports = {
-    "project_id": "student-assistant-c9uy",
-    "private_key_id": "0b6c6c465c42c7a48939028a16bb620f4cb6bc88",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCWgXS1piXxslr2\ntw8NsTVtOQLqVkNI3SZALbAuGHsEo78r7a2tkXaho5ls83QqQ/94prXgPVGBUYtp\nGSB8cvxn2H2GP086wqLz6xIe/qYxNfVE5arKNlFqaPXCf5efmSNTEzcFuHyDQj3f\nHdCeYLH1q1SpGCEGANbZEYNcnksToDmQkkPao39ZTcLZHq0ba3qbtaVWX44Zeec+\nk9j/Loz6fqTE04hxhTuc+yyXXjRe7fuXu0kOTBvMB5xGzcqZs7Tl1p70m5ItRs4b\n41ovXxOPw+m9W9YhrSlVsYhB0QZp/AGUsSJKIqxZjmbaFLTJ7uV1L0Z9qUMTBT1f\nzC3urlF9AgMBAAECggEAHnVeeDCCt1JABHPxkPTO+iayh1gjz8gpqI1WfU2o/7xf\nwPUd0+V/W6DvONRgKvmN5w3d+t6N8xzcmM1j/KuMlzuB07xWPW8MaU6mYS1p1sWz\nuFi+YqPxgBZzvgPyXHMyaeqWlQrL8Ahk2xV+lb695RjiTkI61Kswz8cyjXjfer3/\ny+0jaemIaNg73K6pe/bTu8wABSbi5/qr0/k7U5ClUDrT1nX7PGJg+smBPoFM3MAk\nOkYm89/rBcJWBOC7rjLrcx7dYzUDbVNHaz9K8lSP8DFM4tiBhb/YaxovpvQuNNBM\nByS5s+bt3LermJAYOL5txurZyv3bColkYXozXc+QpQKBgQDKYF08xjxYwE6MrbCq\n3R/Ae4KUkxeA54aUbZhpyGVodZQKC5yTWYSUfm/DOehbH+CmhWtPD6VZCVvcKdac\nNxfFGlXD2TiadEYTqJQREPcAxmbd/KIBnMdROHHCCpEbIwTPKq4g+cg8IPbCSxVv\nmRe9BA5ZkxrUn13aURNIAnFNhwKBgQC+YpYNI7XWi7RxKFnCCI203ReaPymNtY71\nMKj9lo/WgPAB8a0NQKjccnCyf91vM31+3woZfqnez+ygzS03Kzh7MR8QJaDMZyFV\ngtV8xxg3cgmVVVeie+B0rBwINL5hp8YYnk4ciWDBLgEyygcwLJnOhwE32VOeQTqp\nUZKRV47J2wKBgCuW/f4tJKppIYIjlz32SvSGpeWimRlmxRILWRzP0Sfiy3QudBc4\n3NmvMht2yZl3EEhNzING93JqFaMiT9tt8my982Mv0oVSLhXl5Z6XbNx534ZI+Awo\n3LWd1sLYy9BwhoSoyMDJjFuHLh9DVOaorvhDe2PHz6ukd+6iL+j+vbDZAoGAMpZz\nlI42lQmOKrs0DnDDZpmQ2fWKjxL9J32Eic1l7vNX0sxq1SinNdxawbNkHVYrNHkD\nb/7OGFxbXebm6s/bNDC7NkkpTubgXp5jJ8KnVqRAk6OXo58S5y2MTUnmhIBWDNiT\nnNWMFgipXNt9yXkwbUZGNpbStyxR8Aey0FfZox0CgYABnbFhmnGcFl+9ImuWlZXm\nxkCl5PW2sXSOUtclQYDRrajOxPd7+RUaEEoyO/CJC67vnePROTtA6b0uElMZ0f/c\nFoWF8gNwxokH/iKJ0K7OysZKJ++/AUABFeEmwfPBrSdTsMe1SqPfZ+6FY+U3TJDu\nrCkSiDIEIotitE0c6aBDOg==\n-----END PRIVATE KEY-----\n",
-    "client_email": "studentassistant-bot-2@student-assistant-c9uy.iam.gserviceaccount.com",
-    "client_id": "106940752760259525514",
+    "project_id": "",
+    "private_key_id": "",
+    "private_key": "",
+    "client_email": "",
+    "client_id": "",
 }
