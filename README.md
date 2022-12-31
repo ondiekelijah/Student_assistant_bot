@@ -44,7 +44,7 @@ npm install
 
 As you will see in the later steps, a user can respond to the bot using phrases above or others that match the intent and get the desired response.
 
-4. Under the Action and parameters section, define an [action](https://cloud.google.com/dialogflow/es/docs/intents-actions-parameters#actions). We describe an action studentassistant.MENU that triggers the show welcome menu logic in your service.
+4. Under the Action and parameters section, define an [action](https://cloud.google.com/dialogflow/es/docs/intents-actions-parameters#actions). We describe an action `studentassistant.MENU` that triggers the show welcome menu logic in your service.
 
 ![](/assets/readme-media/Aspose.Words.9789cd7e-697b-4b5a-9414-7a82b2d5865d.006.png)
 
