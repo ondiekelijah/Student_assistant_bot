@@ -54,12 +54,13 @@ This action-based response logic `\controllers\response\controller.js` file.
 
 5. Click on the Save button to save your changes.
 
-6. Repeat the same process for portals and events. The training phrases are everyday words or stuff we say. For example, for the Portal intent, we can have training phrases like “portal,” “my portal,” “students portal,” and a number depending on how the options appear in the response. Say, we have the responses in this order, ```
-1. Portals
-2. Events
-```
+6. Repeat the same process for portals and events. The training phrases are everyday words or stuff we say. For example, for the Portal intent, we can have training phrases like “portal,” “my portal,” “students portal,” and a number depending on how the options appear in the response. Say, we have the responses in this order:
 
-we can have `1` and `2` as training phrases.
+> 1. Portals
+> 2. Events
+
+
+We can therefore have `1` and `2` as training phrases.
 
 You are free to add as many intents as you desire while adding more logic to handle the same.
 
