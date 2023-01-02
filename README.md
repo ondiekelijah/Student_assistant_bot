@@ -109,7 +109,7 @@ Make sure to append `/webhook` at the end of the URL.
 
 If you get the error 
 
-`RestException [Error]: Twilio could not find a Channel with the specified From address; double-check that you are using the Live credentials and not the Test credentials.`
+`RestException [Error]: Twilio could not find a Channel with the specified From address`; double-check that you are using the Live credentials and not the Test credentials.
 
 Viva! That’s all to it. Go ahead and test the bot. 
 
