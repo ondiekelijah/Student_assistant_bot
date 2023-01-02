@@ -22,31 +22,31 @@ Go to the Dialogflow website (https://dialogflow.cloud.google.com/) and sign up 
 
 On the Dialogflow console, click the Create Agent button in the top left corner.
 
-![](/assets/readme-media/Aspose.Words.9789cd7e-697b-4b5a-9414-7a82b2d5865d.001.png)
+![](/assets/readme-media/create-agent.PNG)
 
 Enter a name for your agent and select the default language and time zone. Then click on the Create button.
 
-![](/assets/readme-media/Aspose.Words.9789cd7e-697b-4b5a-9414-7a82b2d5865d.002.png)
+![](/assets/readme-media/save-agent.PNG)
 
 ### Creating an Intent
 
 In the left sidebar of the Dialogflow console, click on the Intents option.
 
-![](/assets/readme-media/Aspose.Words.9789cd7e-697b-4b5a-9414-7a82b2d5865d.003.png)
+![](/assets/readme-media/create-intent.PNG)
 
 Click on the Create Intent button.
 
-![](/assets/readme-media/Aspose.Words.9789cd7e-697b-4b5a-9414-7a82b2d5865d.004.png)
+![](/assets/readme-media/save-intent.PNG)
 
 Add some training phrases that represent the user's input. These phrases should represent the type of input the intent is designed to handle.
 
-![](/assets/readme-media/Aspose.Words.9789cd7e-697b-4b5a-9414-7a82b2d5865d.005.png)
+![](/assets/readme-media/user-expressions.PNG)
 
 As you will see in the later steps, a user can respond to the bot using phrases above or others that match the intent and get the desired response.
 
 Under the Action and parameters section, define an [action](https://cloud.google.com/dialogflow/es/docs/intents-actions-parameters#actions). We describe an action studentassistant.MENU that triggers the show welcome menu logic in your service.
 
-![](/assets/readme-media/Aspose.Words.9789cd7e-697b-4b5a-9414-7a82b2d5865d.006.png)
+![](/assets/readme-media/action-based-response-hook.PNG)
 
 When a user says something similar to a training phrase, Dialogflow matches it to the intent, which is responsible for showing the welcome menu message.
 
