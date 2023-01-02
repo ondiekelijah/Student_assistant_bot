@@ -1,5 +1,5 @@
 # Student_assistant_bot
-A simple Whatsapp bot for guiding students built with Twilio as the messaging client, Google's Dialog flow for intent filtering, and runs on a Node.js server.
+This sample bot is designed to make a student's life seamless on matters academics and resources. It uses Twilio as the messaging client, Google's Dialog flow for intent filtering, and runs on a Node.js server.
 
 
 # Requirements
